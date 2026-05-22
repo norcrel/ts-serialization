@@ -46,7 +46,7 @@ export function deserialize(data:string|object, cls:object)
                 return;
             }
 
-            instance[key] = deserialize(JSON.stringify(instance[key]), c);
+            instance[key] = deserialize(instance[key], c);
         });
     }
 
