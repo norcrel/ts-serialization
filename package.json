@@ -1,5 +1,5 @@
 {
-  "name": "ts-serialization",
+  "name": "@norcrel/ts-serialization",
   "version": "1.0.0",
   "description": "A small library for enabling serialization of data classes in Typescript",
   "main": "src/index.js",
@@ -15,5 +15,13 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^6.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norcrel/ts-serialization.git"
+  },
+  "bugs": {
+    "url": "https://github.com/norcrel/ts-serialization/issues"
+  },
+  "homepage": "https://github.com/norcrel/ts-serialization#readme"
 }
