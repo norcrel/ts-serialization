@@ -32,7 +32,7 @@ function deserialize(data, cls) {
             if (!c) {
                 return;
             }
-            instance[key] = deserialize(JSON.stringify(instance[key]), c);
+            instance[key] = deserialize(instance[key], c);
         });
     }
     return instance;
