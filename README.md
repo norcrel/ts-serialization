@@ -9,11 +9,11 @@ Intended for simple, hierarchical data model classes with some functions.
 - No references to specific instances (deserialization only creates new instances).
 
 # Installation
-1. `npm i https://github.com/norcrel/ts-serialization.git`
+1. `npm i https://github.com/norcrel/easy-class-serialization.git`
 
 # Usage
 ```
-import {serializedType, deserialize} from 'ts-serializer'
+import {serializedType, deserialize} from '@norcrel/easy-class-serializer'
 
 class DataModel {
     public description:string;
