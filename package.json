@@ -4,7 +4,8 @@
   "description": "A small library for enabling serialization of data classes in Typescript",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "keywords": [
     "serialization",
